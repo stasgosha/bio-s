@@ -162,14 +162,14 @@
 				<div class="construction-component">
 					<div class="cmp-description left">
 						<h5 class="cmp-caption">Элементы:</h5>
-						<ul class="cmp-list">
-							<li data-marker="#marker-1">Наружная юбка</li>
-							<li data-marker="#marker-2">Посадочная полка</li>
-							<li data-marker="#marker-3">Кольца жесткости</li>
-							<li data-marker="#marker-4">Стационарная лестница</li>
-							<li data-marker="#marker-5">Муфта «АQUA STOP»</li>
-							<li data-marker="#marker-6">Массивное дно</li>
-							<li data-marker="#marker-7">Пригрузочная юбка</li>
+						<ul class="cmp-list left">
+							<li data-marker="#marker-1" data-number="1">Наружная юбка</li>
+							<li data-marker="#marker-2" data-number="2">Посадочная полка</li>
+							<li data-marker="#marker-3" data-number="3">Кольца жесткости</li>
+							<li data-marker="#marker-4" data-number="4">Стационарная лестница</li>
+							<li data-marker="#marker-5" data-number="5">Муфта «АQUA STOP»</li>
+							<li data-marker="#marker-6" data-number="6">Массивное дно</li>
+							<li data-marker="#marker-7" data-number="7">Пригрузочная юбка</li>
 						</ul>
 					</div>
 					<div class="cmp-structure">
@@ -286,18 +286,22 @@
 					<div class="cmp-description right">
 						<h5 class="cmp-caption">Оборудование:</h5>
 						<ul class="cmp-list">
-							<li data-marker="#marker-8">Гидроаккумулятор</li>
-							<li data-marker="#marker-9">Манометр давления</li>
-							<li data-marker="#marker-10">Реле давления</li>
-							<li data-marker="#marker-11">Фильтр для очистки воды</li>
-							<li data-marker="#marker-12">Внутренняя разводка</li>
-							<li data-marker="#marker-13">Электрический кабель для управления насосом</li>
+							<li data-marker="#marker-8" data-number="8">Гидроаккумулятор</li>
+							<li data-marker="#marker-9" data-number="9">Манометр давления</li>
+							<li data-marker="#marker-10" data-number="10">Реле давления</li>
+							<li data-marker="#marker-11" data-number="11">Фильтр для очистки воды</li>
+							<li data-marker="#marker-12" data-number="12">Внутренняя разводка</li>
+							<li data-marker="#marker-13" data-number="13">Электрический кабель для управления насосом</li>
 						</ul>
 					</div>
 				</div>
+				<div class="show-in-3d">
+					<p><span>Посмотреть <br>модель 3D</span></p>
+					<img src="img/big-icons/3d.png" alt="">
+				</div>
 			</div>
 			<div class="background-image" id="parallax-viewport-video-section">
-				<div class="parallax-layer" data-depth="0.02" style="background-image: url(img/backgrounds/construction-bg.png);"></div>
+				<div class="parallax-layer" data-depth="0.1" style="background-image: url(img/backgrounds/construction-bg.png);"></div>
 		</section>
 		<!--  -->
 		<section class="about-section section-corner corner-white">

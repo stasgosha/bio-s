@@ -22,6 +22,19 @@ $(document).ready(function(){
 
 	jcf.replace( $('.range-field input') );
 
+	// Construction
+	$('.structure-markers .marker').hover(function(){
+		$('[data-marker="#' + $(this).attr('id') + '"]').addClass('hover');
+	}, function(){
+		$('[data-marker="#' + $(this).attr('id') + '"]').removeClass('hover');
+	});
+
+	$('[data-marker]').hover(function(){
+		$( $(this).data('marker') ).addClass('visible');
+	}, function(){
+		$( $(this).data('marker') ).removeClass('visible');
+	});
+
 	// About Slider
 	$('.about-slider').slick({
 		arrows: true,
