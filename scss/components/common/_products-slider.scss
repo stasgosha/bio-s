@@ -1,0 +1,33 @@
+.products-slider{
+	.slick-arrow{
+		&.slick-prev{
+			left: -105px;
+		}
+
+		&.slick-next{
+			right: -105px;
+		}
+
+		@media screen and (max-width: 1399px){
+			&.slick-prev{
+				left: -55px;
+			}
+
+			&.slick-next{
+				right: -55px;
+			}
+		}
+	}
+
+	.slide{
+		&:not(.slick-active) .small-card{
+			box-shadow: none;
+		}
+	}
+
+	@media screen and (min-width: 1200px) and (max-width: 1329px){
+		width: calc(100% - 110px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

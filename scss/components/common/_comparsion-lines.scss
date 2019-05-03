@@ -1,0 +1,168 @@
+.comparsion-lines{
+	position: relative;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 83px;
+		height: 840px;
+		background: url(../img/big-white-shadow.png) no-repeat center center;
+		position: absolute;
+		right: 50%;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.line-caption{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: -10px;
+		margin-bottom: 50px;
+		position: relative;
+
+		&:first-child{
+			margin-top: 0;
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			width: 100%;
+			height: 1px;
+			background: #d7d7d7;
+			position: absolute;
+			left: 0;
+			top: 50%;
+		}
+
+		h5{
+			position: relative;
+			z-index: 2;
+			padding: 0 25px;
+			background: #f7f7f7;
+			color: $text-dark;
+			font-family: $s-font;
+			text-align: center;
+			font-size: 22px;
+			line-height: 30px;
+			font-weight: 400;
+		}
+	}
+
+	.line{
+		display: flex;
+		width: 100%;
+		align-items: center;
+		margin-bottom: 60px;
+		position: relative;
+		z-index: 2;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		.item{
+			display: flex;
+			align-items: center;
+			width: 50%;
+
+			.item-image{
+				width: 254px;
+				height: 254px;
+				border-radius: 50%;
+				border: 8px solid #fff;
+				position: relative;
+				box-shadow: 0 10px 40px rgba(#fff, .07);
+				flex: none;
+
+				img{
+					display: block;
+					max-width: 100%;
+					height: auto;
+					border-radius: 50%;
+				}
+
+				&:after{
+					content: '';
+					display: block;
+					width: 44px;
+					height: 44px;
+					position: absolute;
+					top: 4.661%;
+					border-radius: 50%;
+					background-color: #fff;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+			}
+
+			.item-text{
+				.item-caption{
+					font-size: 22px;
+					line-height: 30px;
+					color: $text-dark;
+					font-family: $s-font;
+					margin-bottom: 10px;
+				}
+
+				p{
+					font-size: 14px;
+					line-height: 26px;
+					letter-spacing: -0.02em;
+				}
+			}
+
+			&:first-child{
+				padding-right: 30px;
+				flex-direction: row-reverse;
+
+				.item-image{
+					margin-left: 30px;
+
+					&:after{
+						right: 4.661%;
+						background-image: url(../img/icons/green-tick.png);
+					}
+				}
+
+				.item-text{
+					text-align: right;
+				}
+			}
+
+			&:last-child{
+				padding-left: 30px;
+
+				.item-image{
+					margin-right: 30px;
+
+					&:after{
+						left: 4.661%;
+						background-image: url(../img/icons/red-cross.png);
+					}
+				}
+			}
+		}
+	}
+
+	&.small-shadows{
+		&:before{
+			display: none;
+		}
+
+		.line{
+			&:before{
+				content: '';
+				display: block;
+				width: 83px;
+				height: 480px;
+				background: url(../img/white-shadow.png) no-repeat center center;
+				position: absolute;
+				right: 50%;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+}

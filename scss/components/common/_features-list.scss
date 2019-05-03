@@ -1,0 +1,37 @@
+.features-list{
+	display: flex;
+	width: 100%;
+
+	.item{
+		flex: auto;
+		flex-basis: 100%;
+		background: linear-gradient(to right, #33b24b, #2cab44);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 30px;
+
+		.item-icon{
+			height: 95px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 15px;
+			flex: none;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		.item-text{
+			font-family: $s-font;
+			font-size: 22px;
+			line-height: 30px;
+			text-align: center;
+			color: #fff;
+		}
+	}
+}

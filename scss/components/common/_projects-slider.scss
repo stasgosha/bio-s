@@ -1,0 +1,33 @@
+.projects-slider{
+	.slick-arrow{
+		&.slick-prev{
+			left: -100px;
+		}
+
+		&.slick-next{
+			right: -100px;
+		}
+
+		@media screen and (max-width: 1399px){
+			&.slick-prev{
+				left: -50px;
+			}
+
+			&.slick-next{
+				right: -50px;
+			}
+		}
+	}
+
+	.slide{
+		&:not(.slick-active) .project-card{
+			box-shadow: none;
+		}
+	}
+
+	@media screen and (min-width: 1200px) and (max-width: 1329px){
+		width: calc(100% - 100px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

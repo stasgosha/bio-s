@@ -1,0 +1,30 @@
+.contacts-section{
+	padding: 75px 0;
+	background: #fff;
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 10px 40px rgba(#000, .07);
+
+	.section-caption{
+		margin-bottom: 15px;
+	}
+
+	.section-inner{
+		width: 50%;
+	}
+
+	.map-wrapper{
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: #eee;
+
+		iframe{
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+	}
+}

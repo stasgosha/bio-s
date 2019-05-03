@@ -1,0 +1,76 @@
+.patent-card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.card-image{
+		width: 220px;
+		height: 295px;
+		border: 1px solid #d1d1d1;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 25px;
+
+		.zoom-icon{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			width: 40px;
+			height: 40px;
+			border: 2px solid #fff;
+			border-radius: 50%;
+			background: linear-gradient(to top, #00b126, #3fd240);
+			z-index: 3;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: all $t;
+
+			&:hover{
+				width: 46px;
+				height: 46px;
+				transform: translate(-50%, -50%) scale(1.07);
+			}
+
+			i{
+				display: block;
+			}
+		}
+
+		&:before,
+		&:after{
+			content: '';
+			display: block;
+			width: calc(100% - 110px);
+			height: calc(100% + 4px);
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			background: #f7f7f7;
+		}
+
+		&:after{
+			height: calc(100% - 110px);
+			width: calc(100% + 4px);
+		}
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+			position: relative;
+			z-index: 2;
+		}
+	}
+
+	.card-name{
+		font-size: 22px;
+		line-height: 30px;
+		color: $text-dark;
+		text-align: center;
+	}
+}

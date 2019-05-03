@@ -1,0 +1,44 @@
+.patents-slider{
+	margin-top: 45px;
+
+	.slick-arrow{
+		&.slick-prev{
+			left: -50px;
+		}
+
+		&.slick-next{
+			right: -50px;
+		}
+	}
+
+	.slide{
+		position: relative;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 83px;
+			height: 480px;
+			background: url(../img/white-shadow.png) no-repeat center center;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			opacity: 0;
+			transition: all $t;
+		}
+
+		&.slick-current,
+		&.slick-current + .slick-active{
+			&:before{
+				opacity: 1;
+			}
+		}
+	}
+
+	@media screen and (min-width: 1200px) and (max-width: 1329px){
+		width: calc(100% - 100px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

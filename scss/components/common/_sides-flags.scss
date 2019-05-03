@@ -1,0 +1,33 @@
+.sides-flags{
+	display: flex;
+	width: 100%;
+	max-width: 740px;
+	margin: 0 auto 50px;
+	justify-content: space-between;
+	position: relative;
+	z-index: 2;
+
+	.flag{
+		flex: none;
+		width: calc(50% - 1px);
+		font-size: 22px;
+		line-height: 30px;
+		color: #fff;
+		text-align: center;
+		padding: 15px 30px;
+		text-transform: uppercase;
+		font-family: $s-font;
+
+		&.green{
+			background: linear-gradient(to right, #3fd240, #00b126);
+			clip-path: polygon(25px 0%, 100% 0%, 100% 100%, 25px 100%, 0% 50%);
+			padding-left: 55px;
+		}
+
+		&.red{
+			background: linear-gradient(to right, #b71212, #d33737);
+			clip-path: polygon(0% 0%, calc(100% - 25px) 0%, 100% 50%, calc(100% - 25px) 100%, 0% 100%);
+			padding-right: 55px;
+		}
+	}
+}

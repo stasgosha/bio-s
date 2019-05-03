@@ -1,0 +1,24 @@
+.work-time-block{
+	display: flex;
+	align-items: center;
+
+	.b-icon{
+		flex: none;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		margin-right: 15px;
+		box-shadow: $shadow;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #fff;
+	}
+
+	.b-text{
+		color: $text-dark;
+		font-size: 13px;
+		line-height: 18px;
+		letter-spacing: -0.015em;
+	}
+}

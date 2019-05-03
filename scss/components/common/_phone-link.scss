@@ -1,0 +1,41 @@
+.phone-link{
+	display: flex;
+	align-items: center;
+
+	.l-icon{
+		flex: none;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		margin-right: 15px;
+		box-shadow: $shadow;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #fff;
+	}
+
+	.l-text{
+		font-size: 22px;
+		line-height: 32px;
+		color: $text-dark;
+		font-weight: bold;
+		transition: all $t;
+
+		span{
+			color: $primary;
+		}
+	}
+
+	&:hover{
+		.l-text{
+			color: $primary !important;
+		}
+	}
+
+	&.white{
+		.l-text{
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,157 @@
+.btn{
+	display: inline-flex;
+	border: none;
+	transition: all $t;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #fff;
+	background: linear-gradient(to bottom, #3fd240 0%, #01b126 49.99%, #01b126 50%, #01b126 100%);
+	background-size: 100% 200%;
+	background-position: 0 0;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 25px;
+	min-height: 42px;
+	border: 1px solid #01b126;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	text-shadow: 0 2px 3px rgba(#000, .29);
+	position: relative;
+	-webkit-appearance: none;
+	border-radius: $r;
+
+	&:after{
+		content: '';
+		display: block;
+		width: calc(100% + 2px);
+		height: 18px;
+		background: #009600;
+		position: absolute;
+		bottom: -4px;
+		left: -1px;
+		z-index: -1;
+		border-radius: $r;
+		box-shadow: 0 3px 20px rgba(#009600, .57);
+	}
+
+	&:hover{
+		background-position: 0 50%;
+	}
+
+	&:active{
+		top: 3px;
+
+		&:after{
+			bottom: -1px;
+		}
+	}
+
+	[class^="icon-"], [class*=" icon-"]{
+		&:first-child{
+			margin-right: 18px;
+		}
+
+		&:last-child{
+			margin-left: 18px;
+		}
+	}
+
+	&.fullwidth{
+		width: 100%;
+	}
+
+	@media screen and (max-width: 575px){
+		&.xs-fullwidth{
+			width: 100%;
+		}
+	}
+
+	&.btn-bigger{
+		min-height: 55px;
+		padding-left: 55px;
+		padding-right: 55px;
+
+		&:after{
+			height: 21px;
+			bottom: -5px;
+		}
+
+		&:active{
+			top: 4px;
+
+			&:after{
+				bottom: -1px;
+			}
+		}
+	}
+
+	&.btn-light{
+		border-color: $primary;
+		color: $primary;
+		text-shadow: unset;
+		min-height: 37px;
+		border-radius: 19px;
+		background: #fff;
+		font-size: 12px;
+		font-weight: bold;
+
+		&:after{
+			display: none;
+		}
+
+		&:hover{
+			box-shadow: 0 3px 20px rgba(#009600, .27);
+		}
+
+		&.btn-green{
+			border-color: transparent;
+			background: linear-gradient(to top, #00b126, #3fd240);
+			color: #fff;
+			border: 0;
+		}
+	}
+
+	&.btn-bordered{
+		border-color: #dedede;
+		color: $text-dark;
+		text-shadow: unset;
+		min-height: 46px;
+		background: transparent;
+		font-size: 14px;
+		font-weight: bold;
+		border-radius: $r;
+		letter-spacing: 0;
+
+		&:after{
+			display: none;
+		}
+
+		&:hover{
+			background: #fff;
+			border-color: $primary;
+			box-shadow: 0 3px 20px rgba(#009600, .27);
+		}
+	}
+}
+
+.view-more-link{
+	width: 300px;
+	margin: 45px auto 0;
+
+	.btn{
+		width: 100%;
+	}
+}
+
+.view-all-link{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	position: relative;
+	z-index: 2;
+}

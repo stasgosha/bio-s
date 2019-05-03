@@ -1,0 +1,81 @@
+.consultation-section{
+	background: #05a325;
+	position: relative;
+
+	.background-image{
+		display: block;
+		width: 50%;
+		height: 100%;
+		position: absolute !important;
+		top: 0;
+		right: 0;
+		background-position: right center;
+	}
+
+	.section-inner{
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+
+		.section-left{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: calc(50% + 15px);
+			position: relative;
+			background: #05a325;
+			z-index: 5;
+			height: 408px;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 149px;
+				height: 100%;
+				background: url(../img/backgrounds/green-triangles.png) no-repeat right center;
+				position: absolute;
+				left: 100%;
+				top: 0;
+			}
+
+			.section-content{
+				max-width: 360px;
+				width: 100%;
+
+				p{
+					letter-spacing: -0.02em;
+				}
+			}
+
+			.section-image{
+				img{
+					display: block;
+				}
+			}
+		}
+
+		.section-form{
+			width: 310px;
+			position: relative;
+			z-index: 5;
+		}
+	}
+
+	&.installments{
+		.section-image{
+			position: absolute;
+			left: 350px;
+			bottom: 0;
+			z-index: 10;
+		}
+	}
+
+	&.free-measurement{
+		.section-image{
+			margin-right: -50px;
+			position: relative;
+			z-index: 2;
+		}
+	}
+}

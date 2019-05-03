@@ -1,0 +1,48 @@
+.what-is-kesson-section{
+	background: #f7f7f7;
+	padding: 166px 0 85px;
+	margin-top: -16px;
+}
+
+.white-shadow-card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 83px;
+		height: 480px;
+		position: absolute;
+		right: -15px;
+		top: -50px;
+		background: url(../img/white-shadow.png) no-repeat;
+		z-index: -1;
+	}
+
+	.item:last-child &{
+		&:before{
+			display: none;
+		}
+	}
+
+	.c-image{
+		flex: none;
+		height: 230px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	.c-content{
+		flex: auto;
+		text-align: center;
+		padding: 0 15px;
+	}
+}
