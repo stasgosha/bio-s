@@ -72,6 +72,7 @@
 	<script defer src="js/jcf.js"></script>
 	<script defer src="js/jcf.range.js"></script>
 	<script defer src="js/jcf.select.js"></script>
+	<script defer src="js/diffWidget.js"></script>
 	<script defer src="js/scripts.js"></script>
 	<?php // wp_footer(); ?>
 </body>

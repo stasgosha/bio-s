@@ -554,7 +554,35 @@
 				<div class="section-caption white">
 					<h3 class="sc-title">Запатентованная муфта AQVAstop</h3>
 				</div>
-				<!-- TODO -->
+				<div class="clutch-component">
+					<div class="cmp-description">
+						<div class="cmp-card card-1">
+							<div class="card-number">1</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+						<div class="cmp-card card-3">
+							<div class="card-number">3</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+					</div>
+					<div class="cmp-picture">
+						<div class="clutch-comparsion"></div>
+					</div>
+					<div class="cmp-description">
+						<div class="cmp-card card-2">
+							<div class="card-number">2</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+						<div class="cmp-card card-4">
+							<div class="card-number">4</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<!--  -->
@@ -887,14 +915,14 @@
 			</div>
 		</section>
 		<!--  -->
-		<section class="calc-section">
+		<!-- <section class="calc-section">
 			<div class="container">
 				<div class="section-caption white">
 					<h3 class="sc-title">Подберите необходимый кессон за 1 минуту</h3>
 				</div>
-				<!-- TODO -->
+				<?php include('page-parts/calc.inc.php'); ?>
 			</div>
-		</section>
+		</section> -->
 		<!--  -->
 		<section class="our-works-section">
 			<div class="container">

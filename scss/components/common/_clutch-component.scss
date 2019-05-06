@@ -1,0 +1,162 @@
+.clutch-component{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+	.cmp-description{
+		width: 330px;
+		padding-top: 50px;
+		position: relative;
+		z-index: 3;
+	}
+
+	.cmp-picture{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 50px;
+	}
+
+	.cmp-card{
+		text-align: center;
+		text-align: center;
+		border-radius: $r;
+		background: #fff;
+		box-shadow: 0 10px 40px rgba(#000, .07);
+		transition: all $t ease-in-out;
+		// visibility: hidden;
+		// opacity: 0;
+		// transform-origin: center top;
+		// transform: scale(0) rotateZ(-15deg);
+		padding: 20px;
+		z-index: 5;
+		margin-bottom: 55px;
+		position: relative;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		.card-number{
+			width: 44px;
+			height: 44px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			font-size: 16px;
+			font-weight: bold;
+			z-index: 10;
+			position: absolute;
+			transition: all $t;
+			background: linear-gradient(to top, #00b126, #3fd240);
+			border: 3px solid #fff;
+			box-sizing: border-box;
+			box-shadow: 0 5px 5px rgba(#000, .14);
+
+			&:before,
+			&:after{
+				content: '';
+				display: block;
+				height: 1px;
+				background: rgba(#fff, .3);
+				position: absolute;
+				top: 20px;
+				z-index: -1;
+			}
+
+			&:before{
+				width: 47px;
+			}
+
+			&:after{
+				width: 95px;
+			}
+		}
+
+		&.card-1{
+			.card-number{
+				right: -22px;
+				top: -22px;
+
+				&:before{
+					left: 40px;
+				}
+
+				&:after{
+					left: calc(43px + 44px);
+					transform: rotate(45deg);
+					transform-origin: left center;
+				}
+			}
+		}
+
+		&.card-2{
+			.card-number{
+				left: -22px;
+				top: -22px;
+
+				&:before{
+					right: 40px;
+				}
+
+				&:after{
+					right: calc(43px + 44px);
+					transform: rotate(-45deg);
+					transform-origin: right center;
+				}
+			}
+		}
+
+		&.card-3{
+			.card-number{
+				right: -22px;
+				bottom: -22px;
+
+				&:before{
+					left: 40px;
+				}
+
+				&:after{
+					left: calc(43px + 44px);
+					transform: rotate(-45deg);
+					transform-origin: left center;
+				}
+			}
+		}
+
+		&.card-4{
+			.card-number{
+				left: -22px;
+				bottom: -22px;
+
+				&:before{
+					right: 40px;
+				}
+
+				&:after{
+					right: calc(43px + 44px);
+					transform: rotate(45deg);
+					transform-origin: right center;
+				}
+			}
+		}
+
+		.card-name{
+			font-size: 22px;
+			line-height: 30px;
+			font-weight: 400;
+			color: $text-dark;
+			font-family: $s-font;
+			margin-bottom: 10px;
+		}
+
+		p{
+			font-size: 14px;
+			line-height: 26px;
+			color: #5f5f5f;
+			letter-spacing: -0.02em;
+		}
+	}
+}

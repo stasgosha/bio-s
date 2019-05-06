@@ -35,6 +35,14 @@ $(document).ready(function(){
 		$( $(this).data('marker') ).removeClass('visible');
 	});
 
+	// Clutch
+	$('.clutch-comparsion').diffWidget({
+		'top': 'img/clutch-before.png',
+		'bottom': 'img/clutch-after.png',
+		'width': '313px',
+		'height': '323px'
+	});
+
 	// About Slider
 	$('.about-slider').slick({
 		arrows: true,
