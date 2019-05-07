@@ -53,12 +53,41 @@
 					display: block;
 				}
 			}
+
+			@media screen and (max-width: 767px){
+				.section-content{
+					padding-right: 15px;
+				}
+			}
 		}
 
 		.section-form{
 			width: 310px;
 			position: relative;
 			z-index: 5;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		padding-bottom: 50px;
+
+		.background-image{
+			display: none;
+		}
+
+		.section-inner{
+			flex-direction: column;
+
+			.section-left{
+				width: 100%;
+				height: auto;
+				margin-bottom: 30px;
+				padding-top: 50px;
+			}
+
+			.section-form{
+				width: 100%;
+			}
 		}
 	}
 
@@ -76,6 +105,22 @@
 			margin-right: -50px;
 			position: relative;
 			z-index: 2;
+		}
+	}
+
+	&.have-a-question{
+		@media screen and (max-width: 991px){
+			.section-image{
+				display: none;
+			}
+		}
+	}
+
+	&.free-measurement{
+		@media screen and (max-width: 991px){
+			.section-image{
+				display: none;
+			}
 		}
 	}
 }

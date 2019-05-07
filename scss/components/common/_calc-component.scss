@@ -66,10 +66,6 @@
 		bottom: -7px;
 	}
 
-	.cmp-steps-nav{
-		margin-bottom: 30px;
-	}
-
 	.calc-caption{
 		font-size: 22px;
 		line-height: 30px;
@@ -96,5 +92,77 @@
 	.step-1-form{
 		margin-top: 50px;
 		margin-bottom: 20px;
+	}
+
+	.cmp-steps-nav{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 30px;
+
+		.info-line{
+			font-size: 14px;
+			line-height: 24px;
+			color: $text-dark;
+			margin-bottom: 12px;
+		}
+
+		.progress-line{
+			display: flex;
+
+			li{
+				margin-right: 10px;
+				width: 85px;
+				height: 3px;
+				background: #b4b4b4;
+				transition: all $t;
+				cursor: pointer;
+
+				&:last-child{
+					margin-right: 0;
+				}
+
+				&.current{
+					background: #ffc823;
+				}
+
+				&.active{
+					background: #3fd240;
+				}
+			}
+
+			@media screen and (max-width: 575px){
+				li{
+					width: 50px;
+				}
+			}
+		}
+	}
+
+	.cmp-steps{
+		position: relative;
+		overflow: hidden;
+
+		.steps-track{
+			display: flex;
+			width: 300%;
+			transition: all .5s ease-in-out;
+		}
+
+		.step{
+			width: 100%;
+		}
+
+		&.active-step-2{
+			.steps-track{
+				transform: translateX(-33.3333%);
+			}
+		}
+
+		&.active-step-3{
+			.steps-track{
+				transform: translateX(-66.6667%);
+			}
+		}
 	}
 }

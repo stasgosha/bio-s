@@ -29,7 +29,7 @@
 								<img src="img/logo.png" alt="">
 							</a>
 						</div>
-						<div class="header-block">
+						<div class="header-block d-none d-md-block">
 							<div class="work-time-block">
 								<div class="b-icon">
 									<i class="icon-clock"></i>
@@ -37,8 +37,8 @@
 								<div class="b-text">Время работы: <br>пн-пт с 9:00 до 18:00, сб-вс с 10:00 до 17:00</div>
 							</div>
 						</div>
-						<div class="header-block">
-							<a href="tel:+74957218937" class="phone-link">
+						<div class="header-block d-none d-sm-block">
+							<a href="tel:+74957218937" class="phone-link sm-no-icon">
 								<div class="l-icon">
 									<i class="icon-phone"></i>
 								</div>
@@ -47,15 +47,22 @@
 								</div>
 							</a>
 						</div>
-						<div class="header-block">
+						<div class="header-block d-none d-md-block">
 							<button class="btn btn-light">
 								<i class="icon-bell"></i>
 								<span>Заказать звонок</span>
 							</button>
 						</div>
+						<div class="header-block d-md-none">
+							<div class="menu-opener">
+								<div class="bar"></div>
+								<div class="bar"></div>
+								<div class="bar"></div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="top-nav-line">
+				<div class="top-nav-line d-none d-md-block">
 					<div class="container">
 						<ul class="top-nav">
 							<li><a href="#">О компании</a></li>

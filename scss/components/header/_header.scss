@@ -21,7 +21,21 @@
 		}
 	}
 
+	@media screen and (max-width: 767px){
+		.header-inner{
+			padding: 10px 0;
+		}
+	}
+
 	&.sticky{
 		transform: translateY(-87px);
+
+		@media screen and (max-width: 991px){
+			transform: translateY(-98px);
+		}
+
+		@media screen and (max-width: 767px){
+			transform: translateY(0);
+		}
 	}
 }

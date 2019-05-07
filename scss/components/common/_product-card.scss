@@ -90,6 +90,7 @@
 			left: 50%;
 			bottom: 0;
 			transform: translate(-50%, 50%);
+			white-space: nowrap;
 		}
 	}
 
@@ -175,6 +176,7 @@
 			line-height: 30px;
 			color: $text-dark;
 			text-align: center;
+			white-space: nowrap;
 		}
 	}
 }

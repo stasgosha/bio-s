@@ -98,6 +98,18 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 991px){
+		height: 50px;
+
+		li{
+			a{
+				text-transform: none;
+				font-size: 13px;
+				padding: 10px;
+			}
+		}
+	}
 }
 
 .top-nav-line{

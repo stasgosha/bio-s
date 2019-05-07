@@ -66,6 +66,31 @@
 		}
 	}
 
+	@media screen and (max-width: 991px){
+		.section-inner{
+			flex-direction: column;
+
+			.section-content,
+			.section-video{
+				width: 100%;
+				max-width: 100%;
+				margin: 0;
+			}
+
+			.section-content{
+				text-align: center;
+
+				.btn{
+					margin: 0 auto;
+				}
+			}
+
+			.section-video{
+				margin-top: 50px;
+			}
+		}
+	}
+
 	.video-tabs{
 		&:before{
 			background-image: url(../img/backgrounds/video-bg-2.jpg);

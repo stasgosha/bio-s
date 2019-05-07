@@ -48,6 +48,21 @@
 			max-width: 767px;
 		}
 	}
+
+	@media screen and (max-width: 991px){
+		.section-inner{
+			flex-direction: column-reverse;
+
+			.section-video{
+				width: 100%;
+			}
+
+			.section-content{
+				width: 100%;
+				margin-right: 0;
+			}
+		}
+	}
 }
 
 .video-tabs-nav{

@@ -15,6 +15,7 @@
 		align-items: center;
 		justify-content: center;
 		padding-top: 50px;
+		margin: 0 30px;
 	}
 
 	.cmp-card{
@@ -158,5 +159,48 @@
 			color: #5f5f5f;
 			letter-spacing: -0.02em;
 		}
+	}
+
+	@media screen and (max-width: 991px){
+		.cmp-picture{
+			display: none;
+		}
+
+		.cmp-description{
+			width: 50%;
+
+			&:first-child{
+				padding-right: 15px;
+			}
+
+			&:last-child{
+				padding-left: 15px;
+			}
+		}
+
+		.cmp-card{
+			padding-top: 30px;
+
+			.card-number{
+				left: 50% !important;
+				right: auto !important;
+				top: 0 !important;
+				bottom: auto !important;
+				transform: translate(-50%, -50%);
+
+				&:before,
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		.cmp-description{
+			width: 100%;
+		}
+
+		.cmp-card{}
 	}
 }

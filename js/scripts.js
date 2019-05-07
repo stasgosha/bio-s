@@ -43,6 +43,31 @@ $(document).ready(function(){
 		'height': '323px'
 	});
 
+	// Calc
+	$('[data-step]').click(function(e){
+		e.preventDefault();
+
+		var step = $(this).data('step') * 1;
+
+		$('.calc-component .info-line span').text(step);
+
+		$('.calc-component .progress-line li').removeClass('current active');
+
+		var i = 1;
+		$('.calc-component .progress-line li').each(function(){
+			if (i < step) {
+				$(this).addClass('active');
+			} else if(i == step){
+				$(this).addClass('current');
+			}
+
+			i++;
+		})
+
+		$('.calc-component .cmp-steps').removeClass('active-step-1 active-step-2 active-step-3');
+		$('.calc-component .cmp-steps').addClass('active-step-'+step);
+	});
+
 	// About Slider
 	$('.about-slider').slick({
 		arrows: true,
@@ -57,7 +82,33 @@ $(document).ready(function(){
 		dots: false,
 		slidesToShow: 6,
 		slidesToScroll: 1,
-		infinite: true
+		infinite: true,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 4
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 576,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
 	});
 
 	$('.patents-slider').slick({
@@ -65,7 +116,21 @@ $(document).ready(function(){
 		dots: false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
-		infinite: false
+		infinite: false,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
 	});
 
 	$('.projects-slider').slick({
@@ -73,7 +138,21 @@ $(document).ready(function(){
 		dots: false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
-		infinite: true
+		infinite: true,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
 	});
 
 	$('.projects-slider').on('setPosition', function () {

@@ -116,7 +116,7 @@
 				<div class="section-caption">
 					<h3 class="sc-title">Что такое кессон?</h3>
 				</div>
-				<div class="cards-list columns-3">
+				<div class="cards-list columns-3 sm-columns-1">
 					<div class="item">
 						<div class="white-shadow-card">
 							<div class="c-image">
@@ -175,110 +175,110 @@
 					<div class="cmp-structure">
 						<div class="structure-image">
 							<img src="img/construction.png" alt="">
-						</div>
-						<div class="structure-markers">
-							<div class="marker line-right" id="marker-1">
-								<div class="marker-number">1</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Наружная юбка</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+							<div class="structure-markers">
+								<div class="marker line-right" id="marker-1">
+									<div class="marker-number">1</div>
+									<div class="marker-content xs-left">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Наружная юбка</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker" id="marker-2">
-								<div class="marker-number">2</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Посадочная полка</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker" id="marker-2">
+									<div class="marker-number">2</div>
+									<div class="marker-content xs-right">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Посадочная полка</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker line-right" id="marker-3">
-								<div class="marker-number">3</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Кольца жесткости</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker line-right" id="marker-3">
+									<div class="marker-number">3</div>
+									<div class="marker-content xs-left">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Кольца жесткости</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker" id="marker-4">
-								<div class="marker-number">4</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Стационарная лестница</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker" id="marker-4">
+									<div class="marker-number">4</div>
+									<div class="marker-content xs-right">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Стационарная лестница</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker line-right" id="marker-5">
-								<div class="marker-number">5</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Муфта «АQUA STOP»</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker line-right" id="marker-5">
+									<div class="marker-number">5</div>
+									<div class="marker-content xs-left">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Муфта «АQUA STOP»</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker" id="marker-6">
-								<div class="marker-number">6</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Массивное дно</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker" id="marker-6">
+									<div class="marker-number">6</div>
+									<div class="marker-content">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Массивное дно</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker line-right" id="marker-7">
-								<div class="marker-number">7</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Пригрузочная юбка</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker line-right" id="marker-7">
+									<div class="marker-number">7</div>
+									<div class="marker-content xs-right">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Пригрузочная юбка</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker" id="marker-8">
-								<div class="marker-number">8</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Гидроаккумулятор</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker" id="marker-8">
+									<div class="marker-number">8</div>
+									<div class="marker-content xs-right">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Гидроаккумулятор</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker line-right" id="marker-9">
-								<div class="marker-number">9</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Манометр давления</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker line-right" id="marker-9">
+									<div class="marker-number">9</div>
+									<div class="marker-content">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Манометр давления</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker" id="marker-10">
-								<div class="marker-number">10</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Реле давления</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker" id="marker-10">
+									<div class="marker-number">10</div>
+									<div class="marker-content xs-right">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Реле давления</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker" id="marker-11">
-								<div class="marker-number">11</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Фильтр для очистки воды</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker" id="marker-11">
+									<div class="marker-number">11</div>
+									<div class="marker-content">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Фильтр для очистки воды</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker line-right" id="marker-12">
-								<div class="marker-number">12</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Внутренняя разводка</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker line-right" id="marker-12">
+									<div class="marker-number">12</div>
+									<div class="marker-content xs-left">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Внутренняя разводка</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
-							</div>
-							<div class="marker line-right" id="marker-13">
-								<div class="marker-number">13</div>
-								<div class="marker-content">
-									<div class="marker-close"></div>
-									<p class="marker-caption">Электрический кабель для управления насосом</p>
-									<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+								<div class="marker line-right" id="marker-13">
+									<div class="marker-number">13</div>
+									<div class="marker-content xs-left">
+										<div class="marker-close"></div>
+										<p class="marker-caption">Электрический кабель для управления насосом</p>
+										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -306,6 +306,9 @@
 		<!--  -->
 		<section class="about-section section-corner corner-white">
 			<div class="container">
+				<div class="section-caption d-lg-none">
+					<h3 class="sc-title">О компании</h3>
+				</div>
 				<div class="section-inner">
 					<div class="section-slider">
 						<div class="about-slider-wrapper">
@@ -327,7 +330,7 @@
 						</div>
 					</div>
 					<div class="section-content tpg">
-						<div class="section-caption left-aligned">
+						<div class="section-caption left-aligned d-none d-lg-block">
 							<h3 class="sc-title">О компании</h3>
 						</div>
 						<p>Компания «ЭкоГидроСтрой» более 15 лет на рынке производства изделий из полипропилена: автономных канализаций, кессонов, погребов, ёмкостей. Производственные мощности компании рассчитаны на выпуск свыше 70 высокотехнологичных изделий в сутки. Производство «ЭкоГидроСтрой» расположено в подмосковном городе Лобня. Производственные мощности рассчитаны на выпуск свыше 70 высокотехнологичных изделий в сутки. Они производятся из первичного листового полипропилена методом экструзионной сварки.</p>
@@ -476,7 +479,7 @@
 				<div class="section-caption">
 					<h3 class="sc-title">Каталог наших кессонов</h3>
 				</div>
-				<div class="cards-list columns-4">
+				<div class="cards-list columns-4 lg-columns-3 md-columns-2 xs-columns-1">
 					<?php for ($i=0; $i < 8; $i++): ?>
 						<div class="item">
 							<div class="product-card">
@@ -554,7 +557,7 @@
 				<div class="section-caption white">
 					<h3 class="sc-title">Запатентованная муфта AQVAstop</h3>
 				</div>
-				<div class="clutch-component">
+				<div class="clutch-component d-none d-sm-flex">
 					<div class="cmp-description">
 						<div class="cmp-card card-1">
 							<div class="card-number">1</div>
@@ -581,6 +584,31 @@
 							<p class="card-name">Надежная конструкция</p>
 							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
 						</div>
+					</div>
+				</div>
+				<div class="clutch-component d-sm-none">
+					<div class="cmp-description">
+						<div class="cmp-card">
+							<div class="card-number">1</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+						<div class="cmp-card">
+							<div class="card-number">2</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+						<div class="cmp-card">
+							<div class="card-number">3</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+						<div class="cmp-card">
+							<div class="card-number">4</div>
+							<p class="card-name">Надежная конструкция</p>
+							<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления</p>
+						</div>
+					
 					</div>
 				</div>
 			</div>
@@ -675,7 +703,7 @@
 				<div class="section-caption">
 					<h3 class="sc-title">Популярные комплекты</h3>
 				</div>
-				<div class="cards-list columns-4">
+				<div class="cards-list columns-4 md-columns-2 xs-columns-1">
 					<?php for ($i=0; $i < 4; $i++): ?>
 						<div class="item">
 							<div class="product-card">
@@ -915,14 +943,14 @@
 			</div>
 		</section>
 		<!--  -->
-		<!-- <section class="calc-section">
+		<section class="calc-section">
 			<div class="container">
 				<div class="section-caption white">
 					<h3 class="sc-title">Подберите необходимый кессон за 1 минуту</h3>
 				</div>
 				<?php include('page-parts/calc.inc.php'); ?>
 			</div>
-		</section> -->
+		</section>
 		<!--  -->
 		<section class="our-works-section">
 			<div class="container">

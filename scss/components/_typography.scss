@@ -176,7 +176,7 @@ body .tpg-h5{
 	.sc-title{
 		color: $text-dark;
 		font-size: 42px;
-		line-height: 52px;
+		line-height: 1.238;
 		font-weight: 400;
 		font-family: $s-font;
 		padding-bottom: 10px;
@@ -224,25 +224,38 @@ body .tpg-h5{
 		}
 	}
 
-	@media screen and (max-width: 991px){
+	@media screen and (max-width: 1199px){
 		.sc-title{
-			font-size: 38px;
+			font-size: 36px;
 		}
 	}
 
 	@media screen and (max-width: 767px){
 		.sc-title{
-			font-size: 30px;
+			font-size: 28px;
+		}
+
+		&.line-left{
+			.sc-title{
+				&:after{
+					left: 0;
+					top: -10px;
+				}
+			}
 		}
 	}
 }
 
 .alignleft{
-	float: left;
-	margin-right: 20px;
+	@media screen and (min-width: 576px){
+		float: left;
+		margin-right: 20px;
+	}
 }
 
 .alignright{
-	float: right;
-	margin-left: 20px;
+	@media screen and (min-width: 576px){
+		float: right;
+		margin-left: 20px;
+	}
 }

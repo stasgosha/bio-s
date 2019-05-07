@@ -1,6 +1,7 @@
 .logo{
-	display: inline-flex;
+	display: flex;
 	transition: all $t;
+	align-items: center;
 
 	img{
 		display: block;
@@ -10,5 +11,9 @@
 
 	&:hover{
 		opacity: .8;
+	}
+
+	@media screen and (max-width: 1199px){
+		max-width: 120px;
 	}
 }

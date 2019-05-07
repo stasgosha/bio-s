@@ -66,4 +66,21 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 575px){
+		flex-wrap: wrap;
+
+		> .item{
+			width: 100%;
+			margin-bottom: 50px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			&:before{
+				display: none;
+			}
+		}
+	}
 }

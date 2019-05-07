@@ -44,6 +44,10 @@ ol{
 	flex-direction: column;
 	padding-top: 148px;
 
+	@media screen and (max-width: 767px){
+		padding-top: 55px;
+	}
+
 	.page{
 		flex: auto;
 	}
@@ -104,6 +108,13 @@ ol{
 	&.corner-gray{
 		&:after{
 			background: #f7f7f7;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		&:after{
+			height: 30px;
+			top: calc(100% - 1px);
 		}
 	}
 }

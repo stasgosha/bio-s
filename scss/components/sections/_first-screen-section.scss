@@ -25,6 +25,14 @@
 		transform: translateX(-50%);
 		background-position: right top;
 		background-repeat: no-repeat;
+
+		@media screen and (max-width: 767px){
+			left: 75%;
+		}
+
+		@media screen and (max-width: 575px){
+			display: none;
+		}
 	}
 
 	.section-caption{
@@ -57,6 +65,21 @@
 			max-width: 400px;
 			position: relative;
 			z-index: 2;
+		}
+
+		@media screen and (max-width: 575px){
+			flex-direction: column;
+			align-items: stretch;
+
+			.section-calc{
+				width: 100%;
+				max-width: 100%;
+			}
+
+			.section-content{
+				margin-bottom: 50px;
+				padding-top: 0;
+			}
 		}
 	}
 }
@@ -175,6 +198,8 @@
 		color: #fff;
 		height: 70px;
 		position: relative;
+		margin-left: 30px;
+		white-space: nowrap;
 
 		&:before{
 			content: '';
@@ -218,6 +243,94 @@
 			span{
 				display: block;
 				transform: translateY(-3px);
+			}
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		.banner-left{
+			width: 280px;
+		}
+
+		.banner-right{
+			width: calc(100% - 280px);
+		}
+
+		.banner-price{
+			height: 60px;
+
+			&:before{
+				border-width: 30px 23px 30px 0;
+			}
+
+			&:after{
+				border-width: 29px 23px 29px 0;
+			}
+
+			.price-value{
+				font-size: 36px;
+				line-height: 58px;
+			}
+
+			.price-currency{
+				font-size: 36px;
+				line-height: 58px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.banner-right{
+			flex-direction: column;
+			justify-content: center;
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		.banner-price{
+			margin-left: 0;
+			margin-top: 15px;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		flex-direction: column;
+
+		.banner-left{
+			width: 100%;
+			clip-path: polygon(0 0, 100% 0, 100% calc(100% - 35px), 0% 100%);
+			padding: 25px 20px 40px;
+			border-radius: 12px 12px 0 0;
+		}
+
+		.banner-right{
+			width: 100%;
+			border-radius: 0 0 12px 12px;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		.banner-formula{
+			> .item{
+				width: 62px;
+
+				.item-image{
+					width: 58px;
+					height: 58px;
+				}
+
+				.item-text{
+					font-size: 12px;
+				}
+			}
+		}
+
+		.banner-price{
+			border: 1px solid #338fbf;
+
+			&:before,
+			&:after{
+				display: none;
 			}
 		}
 	}

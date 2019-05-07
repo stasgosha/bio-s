@@ -5,4 +5,8 @@
 	.section-caption{
 		margin-bottom: 45px;
 	}
+
+	@media screen and (max-width: 575px){
+		padding-bottom: 50px;
+	}
 }

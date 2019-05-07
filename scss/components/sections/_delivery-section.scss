@@ -16,6 +16,19 @@
 			margin-left: 30px;
 			padding-top: 35px;
 		}
+
+		@media screen and (max-width: 991px){
+			flex-direction: column;
+
+			.section-content{
+				width: 100%;
+			}
+
+			.section-links{
+				margin-left: 0;
+				margin-top: 30px;
+			}
+		}
 	}
 
 	.section-caption{

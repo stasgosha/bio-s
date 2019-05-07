@@ -51,6 +51,8 @@
 	}
 
 	[class^="icon-"], [class*=" icon-"]{
+		flex: none;
+
 		&:first-child{
 			margin-right: 18px;
 		}

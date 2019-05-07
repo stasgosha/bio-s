@@ -13,6 +13,7 @@
 
 	.slide{
 		position: relative;
+		overflow: hidden;
 
 		&:before{
 			content: '';
@@ -36,7 +37,10 @@
 		}
 	}
 
-	@media screen and (min-width: 1200px) and (max-width: 1329px){
+	@media screen and (min-width: 1200px) and (max-width: 1329px),
+		   screen and (min-width: 992px) and (max-width: 1140px),
+		   screen and (min-width: 768px) and (max-width: 890px),
+		   screen and (max-width: 600px){
 		width: calc(100% - 100px);
 		margin-left: auto;
 		margin-right: auto;

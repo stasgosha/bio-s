@@ -1,6 +1,6 @@
 		</div>
 		<footer class="footer">
-			<div class="bottom-nav-line">
+			<div class="bottom-nav-line d-none d-md-block">
 				<div class="container">
 					<ul class="top-nav blue">
 						<li><a href="#">О компании</a></li>
@@ -22,8 +22,8 @@
 					<div class="footer-block">
 						<div class="copyright">© 2007 - <?= date('Y') ?>, Москва, Все права защищены.</div>
 					</div>
-					<div class="footer-block">
-						<a href="tel:+74957218937" class="phone-link white">
+					<div class="footer-block d-none d-sm-block">
+						<a href="tel:+74957218937" class="phone-link white sm-no-icon">
 							<div class="l-icon">
 								<i class="icon-phone"></i>
 							</div>
@@ -32,7 +32,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="footer-block">
+					<div class="footer-block d-none d-md-block">
 						<button class="btn btn-light btn-green">
 							<i class="icon-bell-white"></i>
 							<span>Заказать звонок</span>
@@ -46,7 +46,12 @@
 		<div class="panel-inner">
 			<div class="panel-content"></div>
 			<ul class="panel-nav">
-				<li><a href=""></a></li>
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Цены</a></li>
+				<li><a href="#">Монтаж и доставка</a></li>
+				<li><a href="#">Гарантии и сертификаты</a></li>
+				<li><a href="#">Калькулятор</a></li>
+				<li><a href="#">Контакты</a></li>
 			</ul>
 		</div>
 	</nav>

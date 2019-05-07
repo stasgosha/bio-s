@@ -1,7 +1,7 @@
 .video-tabs{
 	position: relative;
 	padding: 0 65px;
-	height: 480px;
+	// height: 480px;
 
 	&:before{
 		content: '';
@@ -31,10 +31,14 @@
 	// 		z-index: 10;
 	// 	}
 	// }
+
+	@media screen and (max-width: 991px){
+		padding: 0;
+	}
 }
 
 .video-block{
-	width: 640px;
+	// width: 640px;
 	height: 480px;
 	position: relative;
 
@@ -112,5 +116,9 @@
 				transform: translate(-50%, -50%) scale(1.07);
 			}
 		}
+	}
+
+	@media screen and (max-width: 991px){
+		height: auto;
 	}
 }
