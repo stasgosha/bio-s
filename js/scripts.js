@@ -36,12 +36,71 @@ $(document).ready(function(){
 	});
 
 	// Clutch
-	$('.clutch-comparsion').diffWidget({
-		'top': 'img/clutch-before.png',
-		'bottom': 'img/clutch-after.png',
-		'width': '313px',
-		'height': '323px'
-	});
+	// $(document).ready(function($){
+	// 	//function to check if the .cd-image-container is in the viewport here
+	// 	// 
+		
+	// 	//make the .cd-handle element draggable and modify .cd-resize-img width according to its position
+	// 	$('.cd-image-container').each(function(){
+	// 		var actual = $(this);
+	// 		drags(actual.find('.cd-handle'), actual.find('.cd-resize-img'), actual);
+	// 	});
+
+	// 	//function to upadate images label visibility here
+	// 	// 
+	// });
+
+	// //draggable funtionality - credits to http://css-tricks.com/snippets/jquery/draggable-without-jquery-ui/
+	// function drags(dragElement, resizeElement, container) {
+	// 	dragElement.on("mousedown vmousedown", function(e) {
+	// 		dragElement.addClass('draggable');
+	// 		resizeElement.addClass('resizable');
+
+	// 		var dragWidth = dragElement.outerWidth(),
+	// 			 xPosition = dragElement.offset().left + dragWidth - e.pageX,
+	// 			 containerOffset = container.offset().left,
+	// 			 containerWidth = container.outerWidth(),
+	// 			 minLeft = containerOffset + 10,
+	// 			 maxLeft = containerOffset + containerWidth - dragWidth - 10;
+			  
+	// 		dragElement.parents().on("mousemove vmousemove", function(e) {
+	// 			leftValue = e.pageX + xPosition - dragWidth;
+					
+	// 			//constrain the draggable element to move inside its container
+	// 			if(leftValue < minLeft ) {
+	// 				leftValue = minLeft;
+	// 			} else if ( leftValue > maxLeft) {
+	// 				leftValue = maxLeft;
+	// 			}
+
+	// 			widthValue = (leftValue + dragWidth/2 - containerOffset)*100/containerWidth+'%';
+
+	// 			$('.draggable').css('left', widthValue).on("mouseup vmouseup", function() {
+	// 				$(this).removeClass('draggable');
+	// 				resizeElement.removeClass('resizable');
+	// 			});
+
+	// 			$('.resizable').css('width', widthValue); 
+
+	// 			//function to upadate images label visibility here
+	// 			// ...
+
+	// 		}).on("mouseup vmouseup", function(e){
+	// 			dragElement.removeClass('draggable');
+	// 			resizeElement.removeClass('resizable');
+	// 		});
+	// 		e.preventDefault();
+	// 	}).on("mouseup vmouseup", function(e) {
+	// 		dragElement.removeClass('draggable');
+	// 		resizeElement.removeClass('resizable');
+	// 	});
+	// }
+
+	// $('.clutch-component .cmp-card').click(function(){
+	// 	if ( $(window).width() <= 575 ) {
+	// 		$(this).find('p:not(.card-name)').stop().slideToggle(300);
+	// 	}
+	// });
 
 	// Calc
 	$('[data-step]').click(function(e){
@@ -174,10 +233,10 @@ $(document).ready(function(){
 	var isSticky = false;
 
 	$(window).scroll(function(){
-		if( !isSticky && $(window).scrollTop() > 120 ){
+		if( !isSticky && $(window).scrollTop() > 20 ){
 			$('.header').addClass('sticky');
 			isSticky = true;
-		} else if(isSticky && $(window).scrollTop() <= 120){
+		} else if(isSticky && $(window).scrollTop() <= 20){
 			$('.header').removeClass('sticky');
 			isSticky = false;
 		}

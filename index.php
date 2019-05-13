@@ -9,7 +9,7 @@
 						<div class="section-caption left-aligned line-left white">
 							<h3 class="sc-title">Кессоны БИО-С для скважины <br>от производителя</h3>
 						</div>
-						<div class="excellence-list">
+						<div class="excellence-list d-none d-sm-block">
 							<div class="item">
 								<div class="item-icon">
 									<img src="img/big-icons/factory.png" alt="">
@@ -208,7 +208,7 @@
 										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
 									</div>
 								</div>
-								<div class="marker line-right" id="marker-5">
+								<div class="marker to-top line-right" id="marker-5">
 									<div class="marker-number">5</div>
 									<div class="marker-content xs-left">
 										<div class="marker-close"></div>
@@ -216,7 +216,7 @@
 										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
 									</div>
 								</div>
-								<div class="marker" id="marker-6">
+								<div class="marker to-top" id="marker-6">
 									<div class="marker-number">6</div>
 									<div class="marker-content">
 										<div class="marker-close"></div>
@@ -224,7 +224,7 @@
 										<p>Металлопластиковые кольца, интегрированные в корпус, обеспечивают жесткость корпуса и защищают колодец от внешнего давления, предотвращая деформацию.</p>
 									</div>
 								</div>
-								<div class="marker line-right" id="marker-7">
+								<div class="marker to-top line-right" id="marker-7">
 									<div class="marker-number">7</div>
 									<div class="marker-content xs-right">
 										<div class="marker-close"></div>
@@ -557,6 +557,15 @@
 				<div class="section-caption white">
 					<h3 class="sc-title">Запатентованная муфта AQVAstop</h3>
 				</div>
+				<div class="section-clutch-image d-lg-none">
+					<figure class="cd-image-container">
+						<img src="img/clutch-after.png" alt="">
+						<div class="cd-resize-img"> <!-- the resizable image on top -->
+							<img src="img/clutch-before.png" alt="">
+						</div>
+						<span class="cd-handle"></span>
+					</figure>
+				</div>
 				<div class="clutch-component d-none d-sm-flex">
 					<div class="cmp-description">
 						<div class="cmp-card card-1">
@@ -571,7 +580,13 @@
 						</div>
 					</div>
 					<div class="cmp-picture">
-						<div class="clutch-comparsion"></div>
+						<figure class="cd-image-container">
+							<img src="img/clutch-after.png" alt="">
+							<div class="cd-resize-img"> <!-- the resizable image on top -->
+								<img src="img/clutch-before.png" alt="">
+							</div>
+							<span class="cd-handle"></span>
+						</figure>
 					</div>
 					<div class="cmp-description">
 						<div class="cmp-card card-2">

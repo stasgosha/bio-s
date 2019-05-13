@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/jcf.css">
 	<link rel="stylesheet" href="css/main.css">
 	<?php //wp_head(); ?>
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
 </head>
 <body>
 	<div class="wrapper push">

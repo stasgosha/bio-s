@@ -44,7 +44,6 @@
 	</div>
 	<nav id="menu" class="panel">
 		<div class="panel-inner">
-			<div class="panel-content"></div>
 			<ul class="panel-nav">
 				<li><a href="#">О компании</a></li>
 				<li><a href="#">Цены</a></li>
@@ -53,6 +52,27 @@
 				<li><a href="#">Калькулятор</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
+			<div class="panel-content">
+				<div class="item">
+					<a href="tel:+74957218937" class="phone-link white sm-no-icon">
+						<div class="l-icon">
+							<i class="icon-phone"></i>
+						</div>
+						<div class="l-text">
+							<span>+7(495)</span> 721 89 37
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="mailto:info@bio-s.ru">info@bio-s.ru</a>
+				</div>
+				<div class="item">
+					<button class="btn btn-light btn-green">
+						<i class="icon-bell-white"></i>
+						<span>Заказать звонок</span>
+					</button>
+				</div>
+			</div>
 		</div>
 	</nav>
 	<!-- <div class="modal fade narrow" tabindex="-1" role="dialog" id="modal-">
@@ -69,6 +89,7 @@
 	</div> -->
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
+	<script defer src="js/jquery.mobile.custom.min.js"></script>
 	<script defer src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox.min.js"></script>
@@ -77,7 +98,7 @@
 	<script defer src="js/jcf.js"></script>
 	<script defer src="js/jcf.range.js"></script>
 	<script defer src="js/jcf.select.js"></script>
-	<script defer src="js/diffWidget.js"></script>
+	<script defer src="js/image-comparsion.js"></script>
 	<script defer src="js/scripts.js"></script>
 	<?php // wp_footer(); ?>
 </body>

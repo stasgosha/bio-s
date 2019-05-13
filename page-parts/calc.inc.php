@@ -9,7 +9,7 @@
 					<li data-step="3"></li>
 				</ul>
 			</div>
-			<div class="cmp-steps">
+			<div class="cmp-steps active-step-2">
 				<div class="steps-track">
 					<div class="step calc-step-1">
 						<div class="tab-content">
@@ -51,39 +51,36 @@
 					</div>
 					<div class="step calc-step-2">
 						<div class="tab-content">
-							<h5 class="calc-caption bigger">Выберете место размещения оборудования</h5>
-							<div class="step-1-form">
-								<div class="radio-list">
-									<div class="item">
-										<div class="radio-box">
-											<input type="radio" name="placement" value="in-house" id="in-house" checked>
-											<label for="in-house">
-												<div class="box-image">
-													<img src="img/tmp/in-house.jpg" alt="">
-												</div>
-												<span class="box-name">В доме</span>
-											</label>
-										</div>
-									</div>
-									<div class="item">
-										<div class="radio-box">
-											<input type="radio" name="placement" value="in-kesson" id="in-kesson">
-											<label for="in-kesson">
-												<div class="box-image">
-													<img src="img/tmp/in-kesson.jpg" alt="">
-												</div>
-												<span class="box-name">внутри кесона</span>
-											</label>
+							<div class="step-2-form">
+								<div class="form-depth">
+									<h5 class="calc-caption">Глубина скважины (м)</h5>
+									<div class="depth-select-block">
+										<div class="range-field vertical rotate-180">
+											<input type="range" value="0" min="0" max="6" jcf='{"orientation": "vertical", "range":"max"}'>
+											<div class="range-legend">
+												<div class="item">0</div>
+												<div class="item">10</div>
+												<div class="item">20</div>
+												<div class="item">30</div>
+												<div class="item">40</div>
+												<div class="item">50</div>
+											</div>
 										</div>
 									</div>
 								</div>
+								<div class="form-distance"></div>
 							</div>
 							<div class="form-footer">
-								<div class="ff-block"></div>
+								<div class="ff-block">
+									<a href="#" class="back-btn" data-step="1">
+										<i class="icon-arrow-left"></i>
+										<span>Предыдущий шаг</span>
+									</a>
+								</div>
 								<div class="ff-block">
 									<button class="btn btn-bigger" data-step="3">Следующий щаг</button>
 								</div>
-								<div class="ff-block"></div>
+								<div class="ff-block">&nbsp;</div>
 							</div>
 						</div>
 					</div>

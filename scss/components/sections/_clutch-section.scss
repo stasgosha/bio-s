@@ -5,4 +5,13 @@
 	&:after{
 		background: #0a6493;
 	}
+
+	.section-clutch-image{
+		display: table;
+		margin: 50px auto 30px;
+
+		@media screen and (max-width: 400px){
+			width: 100%;
+		}
+	}
 }

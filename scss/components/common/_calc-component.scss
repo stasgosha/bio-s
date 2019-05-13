@@ -87,11 +87,62 @@
 		justify-content: space-between;
 		width: 100%;
 		padding: 20px;
+
+		.ff-block{
+			flex: auto;
+			flex-basis: 33.333%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			&:first-child{
+				justify-content: flex-start;
+			}
+
+			&:last-child{
+				justify-content: flex-end;
+			}
+		}
+	}
+
+	.back-btn{
+		font-size: 14px;
+		line-height: 1;
+		color: $text-dark;
+		display: flex;
+		align-items: center;
+
+		i{
+			flex: none;
+			margin-right: 10px;
+		}
+
+		span{
+			border-bottom: 1px dashed #b1b1b1;
+		}
+
+		&:hover{
+			color: $primary;
+
+			span{
+				border-bottom-color: $primary;
+			}
+		}
 	}
 
 	.step-1-form{
 		margin-top: 50px;
 		margin-bottom: 20px;
+	}
+
+	.step-2-form{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.form-depth{
+			margin-right: 55px;
+		}
 	}
 
 	.cmp-steps-nav{

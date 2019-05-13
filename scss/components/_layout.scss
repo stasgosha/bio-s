@@ -44,6 +44,10 @@ ol{
 	flex-direction: column;
 	padding-top: 148px;
 
+	@media screen and (max-height: 839px){
+		padding-top: 112px;
+	}
+
 	@media screen and (max-width: 767px){
 		padding-top: 55px;
 	}

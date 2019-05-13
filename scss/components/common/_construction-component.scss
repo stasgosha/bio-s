@@ -236,6 +236,20 @@
 			}
 		}
 
+		&.to-top{
+			.marker-number{
+				top: 100%;
+				// transform: translate(-50%, 50%);
+			}
+
+			.marker-content{
+				top: auto;
+				bottom: 0;
+				padding: 30px 20px 35px;
+				transform-origin: center bottom;
+			}
+		}
+
 		.marker-caption{
 			font-size: 18px;
 			color: $text-dark;
