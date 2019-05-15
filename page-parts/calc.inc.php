@@ -56,19 +56,32 @@
 									<h5 class="calc-caption">Глубина скважины (м)</h5>
 									<div class="depth-select-block">
 										<div class="range-field vertical rotate-180">
-											<input type="range" value="0" min="0" max="6" jcf='{"orientation": "vertical", "range":"max"}'>
+											<input type="range" value="5" min="0" max="5" id="depth-range" jcf='{"orientation": "vertical", "range":"max"}'>
 											<div class="range-legend">
-												<div class="item">0</div>
-												<div class="item">10</div>
-												<div class="item">20</div>
-												<div class="item">30</div>
-												<div class="item">40</div>
-												<div class="item">50</div>
+												<div class="item selected" data-val="5">0</div>
+												<div class="item" data-val="4">10</div>
+												<div class="item" data-val="3">20</div>
+												<div class="item" data-val="2">30</div>
+												<div class="item" data-val="1">40</div>
+												<div class="item" data-val="0">50</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="form-distance"></div>
+								<div class="form-distance">
+									<h5 class="calc-caption">Расстояние до дома (м)</h5>
+									<div class="distance-select-block">
+										<div class="range-field">
+											<input type="range" value="5" min="0" max="3" id="distance-range">
+											<div class="range-legend">
+												<div class="item selected" data-val="0">0</div>
+												<div class="item" data-val="1">10</div>
+												<div class="item" data-val="2">20</div>
+												<div class="item" data-val="3">30+</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 							<div class="form-footer">
 								<div class="ff-block">

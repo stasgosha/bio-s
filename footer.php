@@ -75,18 +75,86 @@
 			</div>
 		</div>
 	</nav>
-	<!-- <div class="modal fade narrow" tabindex="-1" role="dialog" id="modal-">
+	<div class="modal fade modal-product" tabindex="-1" role="dialog" id="modal-product-1">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-body">
 					<div class="modal-close" data-dismiss="modal" aria-label="Close">
 						<i class="icon icon-close"></i>
 					</div>
-					MODAL CONTENT
+					<div class="product-modal-card">
+						<h3 class="card-name text-center d-lg-none">БИО-С Кессон 1</h3>
+						<div class="card-images">
+							<div class="product-photos-component">
+								<div class="previews-list">
+									<div class="item" data-big-image="img/tmp/product-big-image.jpg">
+										<img src="img/tmp/product-preview.jpg" alt="">
+									</div>
+									<div class="item" data-big-image="img/tmp/product-big-image.jpg">
+										<img src="img/tmp/product-preview.jpg" alt="">
+									</div>
+									<div class="item" data-big-image="img/tmp/product-big-image.jpg">
+										<img src="img/tmp/product-preview.jpg" alt="">
+									</div>
+									<div class="item" data-big-image="img/tmp/product-big-image.jpg">
+										<img src="img/tmp/product-preview.jpg" alt="">
+									</div>
+								</div>
+								<div class="big-image">
+									<img src="img/tmp/product-big-image.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="card-content">
+							<h3 class="card-name d-none d-lg-block">БИО-С Кессон 1</h3>
+							<h6>Характеристики</h6>
+							<div class="params-list">
+								<div class="item">
+									<div class="item-text"><span>Высота, м</span></div>
+									<div class="item-value">108/164 м</div>
+								</div>
+								<div class="item">
+									<div class="item-text"><span>Масса, кг</span></div>
+									<div class="item-value">54 кг</div>
+								</div>
+								<div class="item">
+									<div class="item-text"><span>Диаметр обсадной трубы, мм</span></div>
+									<div class="item-value">108/164 мм</div>
+								</div>
+								<div class="item">
+									<div class="item-text"><span>Размер рабочей камеры, мм</span></div>
+									<div class="item-value">Ø 955×1500 мм</div>
+								</div>
+								<div class="item">
+									<div class="item-text"><span>Габаритные размеры основания, мм</span></div>
+									<div class="item-value">1100×1100×13 мм</div>
+								</div>
+								<div class="item">
+									<div class="item-text"><span>Диаметр соединительной муфты (min/max), мм</span></div>
+									<div class="item-value">108/164 мм</div>
+								</div>
+							</div>
+							<div class="dashed-divider"></div>
+							<div class="card-footer">
+								<div class="footer-left">
+									<h6>Комплект поставки</h6>
+									<p>Кессон, муфта, крышка, лестница</p>
+									<div class="checkbox">
+										<input type="checkbox" id="product-1-montage">
+										<label for="product-1-montage">Монтаж + <strong>1750 <span class="rouble">7</span></strong></label>
+									</div>
+								</div>
+								<div class="footer-right">
+									<div class="price">29 000 <span class="rouble">7</span></div>
+									<button class="btn fullwidth">Заказать</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
 	<script defer src="js/jquery.mobile.custom.min.js"></script>

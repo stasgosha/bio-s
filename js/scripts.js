@@ -35,6 +35,21 @@ $(document).ready(function(){
 		$( $(this).data('marker') ).removeClass('visible');
 	});
 
+	$('#depth-range').on('change', function(){
+		var val = $(this).val();
+
+		$('.range-legend .item[data-val]').removeClass('selected');
+		$('.range-legend .item[data-val*=' + val + ']').addClass('selected');
+	})
+
+	// Product Images
+	$('[data-big-image]').click(function(){
+		$('.big-image img').attr('src', $(this).data('big-image'));
+		$(this).addClass('selected').siblings().removeClass('selected');
+	});
+
+	$('[data-big-image]:first-child').click();
+
 	// Clutch
 	// $(document).ready(function($){
 	// 	//function to check if the .cd-image-container is in the viewport here
@@ -96,11 +111,11 @@ $(document).ready(function(){
 	// 	});
 	// }
 
-	// $('.clutch-component .cmp-card').click(function(){
-	// 	if ( $(window).width() <= 575 ) {
-	// 		$(this).find('p:not(.card-name)').stop().slideToggle(300);
-	// 	}
-	// });
+	$('.clutch-component .cmp-card').click(function(){
+		if ( $(window).width() <= 575 ) {
+			$(this).find('p:not(.card-name)').stop().slideToggle(300);
+		}
+	});
 
 	// Calc
 	$('[data-step]').click(function(e){

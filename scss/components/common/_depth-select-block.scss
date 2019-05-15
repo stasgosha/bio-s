@@ -1,0 +1,50 @@
+.depth-select-block{
+	display: flex;
+	height: 200px;
+	margin: 0 auto;
+	padding-left: 58px;
+	position: relative;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 32px;
+		height: 207px;
+		background: url(../img/depth.png) no-repeat center center;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.range-field{
+		height: 200px;
+
+		.jcf-range{
+			margin-top: -8px;
+
+			.jcf-range-track{
+				height: 200px;
+				margin: 0;
+
+				.jcf-range-handle{
+					transform: translateY(-50%);
+				}
+			}
+
+			.jcf-range-display-wrapper{
+				top: 0;
+				bottom: 0;
+
+				.jcf-range-display.jcf-range-max{
+					padding-top: 0;
+					margin-top: 0;
+				}
+			}
+		}
+
+		.range-legend{
+			// height: 200px;
+		}
+	}
+}

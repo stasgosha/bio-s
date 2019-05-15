@@ -400,9 +400,85 @@
 		.range-legend{
 			flex-direction: column;
 			height: 100%;
+			margin-left: 20px;
+			height: calc(100% + 12px);
+			margin-bottom: -6px;
+			margin-top: -6px;
 
 			.item{
 				position: static;
+				transform: translateY(0);
+				padding-left: 20px;
+				font-size: 14px;
+
+				&.selected{
+					font-weight: bold;
+					color: $primary;
+				}
+
+				&:before{
+					height: 1px;
+					width: 10px;
+					background: #d1d1d1;
+					position: absolute;
+					left: 0;
+					top: 50%;
+				}
+			}
+		}
+	}
+}
+
+.checkbox{
+	input{
+		display: none;
+
+		+ label{
+			padding-left: 34px;
+			position: relative;
+			cursor: pointer;
+			font-size: 15px;
+			line-height: 20px;
+			display: block;
+
+			strong{
+				color: $text-dark;
+			}
+
+			&:before{
+				content: '';
+				display: block;
+				width: 22px;
+				height: 22px;
+				border-radius: 5px;
+				border: 2px solid $primary;
+				position: absolute;
+				left: 0;
+				top: 0;
+				box-sizing: border-box;
+			}
+
+			&:after{
+				content: '';
+				display: block;
+				width: 11px;
+				height: 8px;
+				background: url(../img/icons/check.png) no-repeat;
+				opacity: 0;
+				transform: rotate(45deg);
+				transition: all $t;
+				position: absolute;
+				left: 6px;
+				top: 7px;
+			}
+		}
+
+		&:checked{
+			+ label{
+				&:after{
+					opacity: 1;
+					transform: rotate(0);
+				}
 			}
 		}
 	}

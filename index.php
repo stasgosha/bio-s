@@ -480,7 +480,27 @@
 					<h3 class="sc-title">Каталог наших кессонов</h3>
 				</div>
 				<div class="cards-list columns-4 lg-columns-3 md-columns-2 xs-columns-1">
-					<?php for ($i=0; $i < 8; $i++): ?>
+					<div class="item">
+						<div class="product-card">
+							<div class="card-image">
+								<img src="img/tmp/product-image.png" alt="">
+							</div>
+							<div class="card-content">
+								<a href="#" class="card-name" data-toggle="modal" data-target="#modal-product-1">БИО-С Кессон 1</a>
+								<p>Размер:  960 x 1500</p>
+								<p><a href="#">Характеристики</a>, <a href="#">Паспорт</a>, <a href="#">Монтажная схема</a></p>
+								<p>Комплект поставки: <br>Кессон, муфта, крышка, лестница</p>
+							</div>
+							<div class="card-price">
+								<div class="price-value">10 000 <span class="rouble">7</span></div>
+								<div class="price-descr">с монтажем</div>
+							</div>
+							<div class="card-footer">
+								<a href="#" data-toggle="modal" data-target="#modal-product-1" class="btn fullwidth">Заказать</a>
+							</div>
+						</div>
+					</div>
+					<?php for ($i=0; $i < 7; $i++): ?>
 						<div class="item">
 							<div class="product-card">
 								<div class="card-image">
