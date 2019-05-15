@@ -486,7 +486,7 @@
 								<img src="img/tmp/product-image.png" alt="">
 							</div>
 							<div class="card-content">
-								<a href="#" class="card-name" data-toggle="modal" data-target="#modal-product-1">БИО-С Кессон 1</a>
+								<a href="#" class="card-name text-center" data-toggle="modal" data-target="#modal-product-1">БИО-С Кессон 1</a>
 								<p>Размер:  960 x 1500</p>
 								<p><a href="#">Характеристики</a>, <a href="#">Паспорт</a>, <a href="#">Монтажная схема</a></p>
 								<p>Комплект поставки: <br>Кессон, муфта, крышка, лестница</p>
@@ -729,7 +729,7 @@
 				</div>
 			</div>
 			<div class="background-image" id="parallax-viewport-how-to-select-section">
-				<div class="parallax-layer" data-depth="0.02" style="background-image: url(img/backgrounds/leaves-bg-transparent.png);"></div>
+				<div class="parallax-layer" data-depth="0.01" style="background-image: url(img/backgrounds/leaves-bg-transparent.png);"></div>
 			</div>
 		</section>
 		<!--  -->
@@ -985,6 +985,8 @@
 				</div>
 				<?php include('page-parts/calc.inc.php'); ?>
 			</div>
+			<div class="background-image" id="parallax-viewport-calc-section">
+				<div class="parallax-layer" data-depth="0.1" style="background-image: url(img/backgrounds/calc-bg.png);"></div>
 		</section>
 		<!--  -->
 		<section class="our-works-section">

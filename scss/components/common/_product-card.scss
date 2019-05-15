@@ -148,12 +148,15 @@
 	}
 
 	.card-content{
-		a{
+		a, p{
 			color: $text-dark;
 			text-align: center;
-			text-decoration: underline;
 			margin-bottom: 5px;
 			display: block;
+		}
+
+		a{
+			text-decoration: underline;
 
 			&:hover{
 				color: $primary;
@@ -178,5 +181,9 @@
 			text-align: center;
 			white-space: nowrap;
 		}
+	}
+
+	&.with-border{
+		border: 1px solid $primary;
 	}
 }

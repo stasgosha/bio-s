@@ -50,6 +50,11 @@ $(document).ready(function(){
 
 	$('[data-big-image]:first-child').click();
 
+	// Kit Products
+	$('[data-kit-value]').click(function(){
+		$(this).siblings('input').click();
+	});
+
 	// Clutch
 	// $(document).ready(function($){
 	// 	//function to check if the .cd-image-container is in the viewport here
@@ -136,11 +141,15 @@ $(document).ready(function(){
 			}
 
 			i++;
-		})
+		});
+
+		$('.steps-track').height( $('.calc-step-' + step).height() );
 
 		$('.calc-component .cmp-steps').removeClass('active-step-1 active-step-2 active-step-3');
 		$('.calc-component .cmp-steps').addClass('active-step-'+step);
 	});
+
+	$('.steps-track').height( $('.calc-step-1').height() );
 
 	// About Slider
 	$('.about-slider').slick({

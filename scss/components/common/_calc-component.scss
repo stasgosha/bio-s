@@ -105,6 +105,22 @@
 		}
 	}
 
+	@media screen and (max-width: 767px){
+		.form-footer{
+			flex-direction: column;
+
+			.ff-block{
+				flex-basis: auto;
+				text-align: center;
+				margin-bottom: 15px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
 	.back-btn{
 		font-size: 14px;
 		line-height: 1;
@@ -139,12 +155,54 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding: 0 20px;
 
 		.form-depth{
 			margin-right: 55px;
 			display: flex;
 			align-items: center;
 			flex-direction: column;
+		}
+
+		.form-footer{
+			margin-top: 45px;
+		}
+
+		@media screen and (max-width: 767px){
+			flex-direction: column;
+
+			.form-depth{
+				margin-right: 0;
+				margin-bottom: 50px;
+			}
+
+			.form-distance{
+				width: 100%;
+
+				.distance-select-block{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	.calc-step-3{
+		p.note{
+			font-size: 15px;
+			line-height: 24px;
+		}
+
+		@media screen and (max-width: 991px){
+			p.note{
+				font-size: 12px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.btn.btn-bigger{
+			padding-left: 15px;
+			padding-right: 15px;
 		}
 	}
 
@@ -191,6 +249,10 @@
 				}
 			}
 		}
+
+		@media screen and (max-width: 575px){
+			margin-top: 30px;
+		}
 	}
 
 	.cmp-steps{
@@ -199,6 +261,7 @@
 
 		.steps-track{
 			display: flex;
+			align-items: flex-start;
 			width: 300%;
 			transition: all .5s ease-in-out;
 		}
