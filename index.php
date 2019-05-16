@@ -85,36 +85,50 @@
 										</div>
 										<div class="kit-plus">+</div>
 										<div class="kit-recommended">
-											<div class="recommended-list">
-												<div class="item">
-													<div class="item-label">
-														<div class="checkbox">
-															<input type="checkbox" id="recommended-1">
-															<label for="recommended-1">Насос</label>
+											<div class="recommended-list-wrapper">
+												<div class="recommended-list">
+													<div class="item">
+														<div class="item-label">
+															<div class="checkbox">
+																<input type="checkbox" id="recommended-1">
+																<label for="recommended-1">Насос</label>
+															</div>
 														</div>
+														<div class="item-line"></div>
+														<div class="item-value">1750 <span class="rouble">7</span></div>
 													</div>
-													<div class="item-line"></div>
-													<div class="item-value">1750 <span class="rouble">7</span></div>
-												</div>
-												<div class="item">
-													<div class="item-label">
-														<div class="checkbox">
-															<input type="checkbox" id="recommended-2">
-															<label for="recommended-2">Фильтр</label>
+													<div class="item">
+														<div class="item-label">
+															<div class="checkbox">
+																<input type="checkbox" id="recommended-2">
+																<label for="recommended-2">Фильтр</label>
+															</div>
 														</div>
+														<div class="item-line"></div>
+														<div class="item-value">1750 <span class="rouble">7</span></div>
 													</div>
-													<div class="item-line"></div>
-													<div class="item-value">1750 <span class="rouble">7</span></div>
-												</div>
-												<div class="item">
-													<div class="item-label">
-														<div class="checkbox">
-															<input type="checkbox" id="recommended-3">
-															<label for="recommended-3">Монтаж</label>
+													<div class="item">
+														<div class="item-label">
+															<div class="checkbox">
+																<input type="checkbox" id="recommended-3">
+																<label for="recommended-3">Монтаж</label>
+															</div>
 														</div>
+														<div class="item-line"></div>
+														<div class="item-value">1750 <span class="rouble">7</span></div>
 													</div>
-													<div class="item-line"></div>
-													<div class="item-value">1750 <span class="rouble">7</span></div>
+													<?php for ($i=3; $i < 11; $i++): ?>
+														<div class="item">
+															<div class="item-label">
+																<div class="checkbox">
+																	<input type="checkbox" id="recommended-<?= $i ?>">
+																	<label for="recommended-<?= $i ?>">Монтаж</label>
+																</div>
+															</div>
+															<div class="item-line"></div>
+															<div class="item-value">1750 <span class="rouble">7</span></div>
+														</div>
+													<?php endfor; ?>
 												</div>
 											</div>
 											<p>Гидробак и муфта – в подарок!</p>

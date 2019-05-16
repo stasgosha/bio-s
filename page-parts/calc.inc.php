@@ -9,7 +9,7 @@
 					<li data-step="3"></li>
 				</ul>
 			</div>
-			<div class="cmp-steps active-step-1">
+			<div class="cmp-steps active-step-3">
 				<div class="steps-track">
 					<div class="step calc-step-1">
 						<div class="tab-content">
@@ -114,11 +114,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="kit-plus">+</div>
+										<!-- <div class="kit-plus">+</div> -->
 										<div class="kit-recommendations">
 											<h5 class="calc-caption">Дополнительное оборудование</h5>
-											<div class="recommendations-list">
-												<div class="item">
+											<div class="recommendations-slider slider-default-paddings">
+												<div class="slide">
 													<input type="checkbox" name="kit-reccomended" value="1">
 													<div class="small-card" data-kit-value="1">
 														<div class="card-image">
@@ -130,7 +130,7 @@
 														</div>
 													</div>
 												</div>
-												<div class="item">
+												<div class="slide">
 													<input type="checkbox" name="kit-reccomended" value="2">
 													<div class="small-card" data-kit-value="2">
 														<div class="card-image">
@@ -142,9 +142,21 @@
 														</div>
 													</div>
 												</div>
-												<div class="item">
+												<div class="slide">
 													<input type="checkbox" name="kit-reccomended" value="3">
 													<div class="small-card" data-kit-value="3">
+														<div class="card-image">
+															<img src="img/tmp/product-small.png" alt="">
+														</div>
+														<div class="card-content">
+															<p>Фильтр</p>
+															<div class="card-price">1 000 <span class="rouble">7</span></div>
+														</div>
+													</div>
+												</div>
+												<div class="slide">
+													<input type="checkbox" name="kit-reccomended" value="4">
+													<div class="small-card" data-kit-value="4">
 														<div class="card-image">
 															<img src="img/tmp/product-small.png" alt="">
 														</div>
