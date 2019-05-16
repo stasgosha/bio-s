@@ -33,43 +33,101 @@
 					<div class="section-calc">
 						<form action="#" class="white-form transparent form">
 							<div class="form-content">
-								<h5 class="form-caption">Рассчитайте стоимость самостоятельно</h5>
-								<div class="form-fields">
-									<div class="form-row big-margin">
-										<p class="form-label">Где будет размещаться оборудование?</p>
-										<div class="select-field">
-											<select>
-												<option value="0">Внутри кессона</option>
-												<option value="1">В доме</option>
-											</select>
+								<div class="step-1">
+									<h5 class="form-caption">Рассчитайте стоимость самостоятельно</h5>
+									<div class="form-fields">
+										<div class="form-row big-margin">
+											<p class="form-label">Где будет размещаться оборудование?</p>
+											<div class="select-field">
+												<select>
+													<option value="0">Внутри кессона</option>
+													<option value="1">В доме</option>
+												</select>
+											</div>
 										</div>
-									</div>
-									<div class="form-row big-margin">
-										<p class="form-label">Глубина скважины (м)</p>
-										<div class="range-field">
-											<input type="range" value="0" min="0" max="3">
-											<div class="range-legend">
-												<div class="item">до 10</div>
-												<div class="item" style="left: 33.3333%">10-20</div>
-												<div class="item" style="left: 66.6667%">20-30</div>
-												<div class="item">30+</div>
+										<div class="form-row big-margin">
+											<p class="form-label">Глубина скважины (м)</p>
+											<div class="range-field">
+												<input type="range" value="0" min="0" max="3">
+												<div class="range-legend">
+													<div class="item">до 10</div>
+													<div class="item" style="left: 33.3333%">10-20</div>
+													<div class="item" style="left: 66.6667%">20-30</div>
+													<div class="item">30+</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-row">
+											<p class="form-label">Расстояние до дома (м)</p>
+											<div class="range-field">
+												<input type="range" value="0" min="0" max="3">
+												<div class="range-legend">
+													<div class="item">0</div>
+													<div class="item" style="left: 33.3333%">10</div>
+													<div class="item" style="left: 66.6667%">20</div>
+													<div class="item">30+</div>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="form-row">
-										<p class="form-label">Расстояние до дома (м)</p>
-										<div class="range-field">
-											<input type="range" value="0" min="0" max="3">
-											<div class="range-legend">
-												<div class="item">0</div>
-												<div class="item" style="left: 33.3333%">10</div>
-												<div class="item" style="left: 66.6667%">20</div>
-												<div class="item">30+</div>
+									<button class="btn fullwidth" id="to-step-2">Рассчитать</button>
+								</div>
+								<div class="step-2">
+									<h5 class="form-caption">Вам подходит</h5>
+									<div class="small-kit-component">
+										<div class="kit-product">
+											<div class="product-image">
+												<img src="img/tmp/product-small-image.png" alt="">
 											</div>
+											<div class="product-name">Кессон 2</div>
+											<div class="product-underline"></div>
+											<div class="product-price">29 000 <span class="rouble">7</span></div>
+										</div>
+										<div class="kit-plus">+</div>
+										<div class="kit-recommended">
+											<div class="recommended-list">
+												<div class="item">
+													<div class="item-label">
+														<div class="checkbox">
+															<input type="checkbox" id="recommended-1">
+															<label for="recommended-1">Насос</label>
+														</div>
+													</div>
+													<div class="item-line"></div>
+													<div class="item-value">1750 <span class="rouble">7</span></div>
+												</div>
+												<div class="item">
+													<div class="item-label">
+														<div class="checkbox">
+															<input type="checkbox" id="recommended-2">
+															<label for="recommended-2">Фильтр</label>
+														</div>
+													</div>
+													<div class="item-line"></div>
+													<div class="item-value">1750 <span class="rouble">7</span></div>
+												</div>
+												<div class="item">
+													<div class="item-label">
+														<div class="checkbox">
+															<input type="checkbox" id="recommended-3">
+															<label for="recommended-3">Монтаж</label>
+														</div>
+													</div>
+													<div class="item-line"></div>
+													<div class="item-value">1750 <span class="rouble">7</span></div>
+												</div>
+											</div>
+											<p>Гидробак и муфта – в подарок!</p>
+										</div>
+										<div class="kit-total">
+											<span>Итого</span>
+										</div>
+										<div class="kit-price">34 250 <span class="rouble">7</span></div>
+										<div class="kit-footer">
+											<button class="btn fullwidth">Заказать</button>
 										</div>
 									</div>
 								</div>
-								<button class="btn fullwidth">Рассчитать</button>
 							</div>
 						</form>
 					</div>

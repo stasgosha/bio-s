@@ -22,6 +22,13 @@ $(document).ready(function(){
 
 	jcf.replace( $('.range-field input') );
 
+	// First Screen Form
+	$('#to-step-2').click(function(e){
+		e.preventDefault();
+
+		$(this).closest('.step-1').slideUp(300).siblings('.step-2').slideDown(600);
+	});
+
 	// Construction
 	$('.structure-markers .marker').hover(function(){
 		$('[data-marker="#' + $(this).attr('id') + '"]').addClass('hover');

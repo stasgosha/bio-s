@@ -67,9 +67,14 @@
 		}
 
 		.section-calc{
+			width: 100%;
 			max-width: 400px;
 			position: relative;
 			z-index: 2;
+
+			.step-2{
+				display: none;
+			}
 		}
 
 		@media screen and (max-width: 575px){

@@ -1,0 +1,135 @@
+.small-kit-component{
+	width: 100%;
+
+	.kit-product{
+		display: flex;
+		width: 100%;
+		align-items: center;
+
+		.product-image{
+			flex: none;
+			width: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-self: center;
+			margin-right: 10px;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		.product-name{
+			font-size: 15px;
+			line-height: 24px;
+			color: $text-dark;
+			text-decoration: none;
+			flex: none;
+			margin-right: 6px;
+		}
+
+		.product-underline{
+			flex: auto;
+			height: 15px;
+			border-bottom: 1px dotted #5f5f5f;
+		}
+
+		.product-price{
+			font-size: 14px;
+			font-weight: bold;
+			color: $text-dark;
+			flex: none;
+			margin-left: 6px;
+		}
+	}
+
+	.kit-plus{
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 1;
+		color: #d2d1cf;
+		text-align: center;
+	}
+
+	.kit-recommended{
+		margin-bottom: 15px;
+
+		p{
+			color: #5f5f5f;
+			font-size: 15px;
+			line-height: 24px;
+			text-align: center;
+		}
+	}
+
+	.kit-total{
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+
+		&:before,
+		&:after{
+			content: '';
+			display: block;
+			flex: auto;
+			height: 1px;
+			background: url(../img/dashed-divider.png) left center repeat-x;
+		}
+
+		span{
+			padding: 0 6px;
+			flex: none;
+			text-transform: uppercase;
+			color: #5f5f5f;
+			font-size: 12px;
+		}
+	}
+
+	.recommended-list{
+		margin-bottom: 20px;
+
+		.item{
+			display: flex;
+			width: 100%;
+			margin-bottom: 6px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			.item-label{
+				flex: none;
+				padding-right: 6px;
+				font-size: 15px;
+				line-height: 22px;
+				color: #5f5f5f;
+			}
+
+			.item-line{
+				flex: auto;
+				height: 15px;
+				border-bottom: 1px dotted #5f5f5f;
+			}
+
+			.item-value{
+				font-size: 14px;
+				font-weight: bold;
+				color: $text-dark;
+				flex: none;
+				margin-left: 6px;
+			}
+		}
+	}
+
+	.kit-price{
+		font-size: 36px;
+		text-align: center;
+		color: $text-dark;
+		font-weight: 400;
+		margin-bottom: 20px;
+		line-height: 1;
+	}
+}
