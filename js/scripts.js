@@ -315,6 +315,12 @@ $(document).ready(function(){
 	// Form Fields
 
 
+	// About Section
+	$('.about-section .section-more').click(function(){
+		$(this).siblings('.section-content').css({'height':'auto'});
+		$(this).remove();
+	});
+
 	// TODO: ↓↓↓ remove this script ↓↓↓
 	// Current menu item highlithing
 	$(function () {

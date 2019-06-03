@@ -409,6 +409,7 @@
 						<img src="img/about/in-text-image.png" alt="" class="alignright">
 						<p>Завод оснащен автоматизированными линиями сборки,  для сварки и гибки пластмасс используется современное оборудование  INGENIA GmbH и Leister.</p>
 					</div>
+					<div class="section-more">Показать больше</div>
 				</div>
 				<div class="features-list">
 					<div class="item">
@@ -551,7 +552,7 @@
 				<div class="section-caption">
 					<h3 class="sc-title">Каталог наших кессонов</h3>
 				</div>
-				<div class="cards-list columns-4 lg-columns-3 md-columns-2 xs-columns-1">
+				<div class="cards-list columns-4 lg-columns-3 md-columns-2 xs-columns-2">
 					<div class="item">
 						<div class="product-card">
 							<div class="card-image">

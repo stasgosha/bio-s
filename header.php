@@ -38,7 +38,7 @@
 								<div class="b-text">Время работы: <br>пн-пт с 9:00 до 18:00, сб-вс с 10:00 до 17:00</div>
 							</div>
 						</div>
-						<div class="header-block d-none d-sm-block">
+						<div class="header-block"><!-- d-none d-sm-block -->
 							<a href="tel:+74957218937" class="phone-link sm-no-icon">
 								<div class="l-icon">
 									<i class="icon-phone"></i>
